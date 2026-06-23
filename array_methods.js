@@ -29,3 +29,8 @@ console.log(product);
 const ages = [23, 54, 13];
 const average = ages.reduce((acc, current) => acc + current) / ages.length;
 console.log(average);
+
+//25
+const arr5 = [10, 50, 105, 80];
+const desc = arr5.sort((a, b) => b - a);
+console.log(desc);
