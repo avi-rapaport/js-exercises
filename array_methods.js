@@ -64,3 +64,15 @@ const groupedBy = types.reduce((acc, current, type) => {
   return acc;
 }, {});
 console.log(groupedBy);
+
+//39
+const arr8 = [1, 2, 4, 2, 6];
+let flag = false;
+for (const num of arr8) {
+  if (arr8.includes(num, arr8.indexOf(num) + 1)) {
+    flag = true;
+    break;
+  }
+}
+
+console.log(flag);
