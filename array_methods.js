@@ -52,3 +52,15 @@ const fmArr7 = arr7
   .map((num) => num * 2)
   .reduce((acc, current) => acc + current);
 console.log(fmArr7);
+
+//38
+const types = [{ type: "fruit" }, { type: "veg" }, { type: "fruit" }];
+const groupedBy = types.reduce((acc, current, type) => {
+  if (!acc[current["type"]]) {
+    acc[current["type"]] = 1;
+  } else {
+    acc[current["type"]] += 1;
+  }
+  return acc;
+}, {});
+console.log(groupedBy);
