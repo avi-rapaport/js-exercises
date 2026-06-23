@@ -24,3 +24,8 @@ console.log(fmPrices);
 const arr4 = [10, 20, 30];
 const product = arr4.reduce((acc, current) => acc * current);
 console.log(product);
+
+//12
+const ages = [23, 54, 13];
+const average = ages.reduce((acc, current) => acc + current) / ages.length;
+console.log(average);
