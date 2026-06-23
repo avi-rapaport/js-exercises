@@ -39,3 +39,8 @@ console.log(desc);
 const arr6 = [1, 2, 3, 4, 5];
 arr6.splice(1, 2);
 console.log(arr6);
+
+//32
+const nested = [1, [2]];
+const flated = nested.flat(1);
+console.log(flated);
