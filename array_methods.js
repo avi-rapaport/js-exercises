@@ -76,3 +76,17 @@ for (const num of arr8) {
 }
 
 console.log(flag);
+
+//41
+const products = [
+  { name: "Laptop", price: 800, inStock: true, category: "tech" },
+  { name: "Phone", price: 400, inStock: false, category: "tech" },
+  { name: "Shirt", price: 50, inStock: true, category: "fashion" },
+];
+
+const chain = products
+  .filter((p) => p.inStock && p.price > 100)
+  .sort((a, b) => a.price - b.price)
+  .map((p) => p.name)
+  .join(", ");
+console.log(chain);
