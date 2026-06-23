@@ -19,3 +19,8 @@ const fmPrices = prices
   .filter((price) => price > 100)
   .map((price) => price + price * 0.1);
 console.log(fmPrices);
+
+//10
+const arr4 = [10, 20, 30];
+const product = arr4.reduce((acc, current) => acc * current);
+console.log(product);
