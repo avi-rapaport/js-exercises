@@ -34,3 +34,8 @@ console.log(average);
 const arr5 = [10, 50, 105, 80];
 const desc = arr5.sort((a, b) => b - a);
 console.log(desc);
+
+//29
+const arr6 = [1, 2, 3, 4, 5];
+arr6.splice(1, 2);
+console.log(arr6);
