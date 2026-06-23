@@ -44,3 +44,11 @@ console.log(arr6);
 const nested = [1, [2]];
 const flated = nested.flat(1);
 console.log(flated);
+
+//36
+const arr7 = [1, 2, 3, 4, 5];
+const fmArr7 = arr7
+  .filter((num) => num % 2 == 0)
+  .map((num) => num * 2)
+  .reduce((acc, current) => acc + current);
+console.log(fmArr7);
