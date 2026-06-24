@@ -12,5 +12,16 @@
   "type": "module",
   "dependencies": {
     "analiza-sync": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avi-rapaport/js-exercises.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avi-rapaport/js-exercises/issues"
+  },
+  "homepage": "https://github.com/avi-rapaport/js-exercises#readme",
+  "devDependencies": {
+    "@types/node": "^26.0.0"
   }
 }

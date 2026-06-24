@@ -1,4 +1,4 @@
-import input from "analiza-sync";
+//import input from "analiza-sync";
 
 //1
 for (let i = 0; i < 11; i++) {
